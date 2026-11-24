@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mahendra Kumar Gurve</title>
+  <meta name="description" content="Mahendra Kumar Gurve — I build AI agents, and make sure the models behind them are secure and light enough to run anywhere.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#top">Mahendra<span>.</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav class="nav-links">
+      <a href="#work">What I do</a>
+      <a href="#featured">Research</a>
+      <a href="#journey">Journey</a>
+      <a href="#education">Education</a>
+      <a href="#beyond">Beyond work</a>
+      <a href="#contact" class="nav-cta">Say hello</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I'm Mahendra.<br><span class="soft">I build AI that is useful, safe, and small enough to run anywhere.</span></h1>
+        <p class="lead">In industry R&amp;D, I turn ideas into intelligent systems that ship. My work runs from classic ML and NLP to large and small language models (LLMs and SLMs), and on to autonomous AI agents that reason, plan, and act. My doctoral research at IIT Jammu, <em>“Towards Efficient, Secure, and Deployable Machine Learning Systems”</em>, comes down to one question: how do we make AI fast, safe, and ready for the real world?</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn" href="#featured">See my research &rarr;</a>
+        </div>
+      </div>
+      <img class="profile-photo" src="photo.jpg" alt="Mahendra Kumar Gurve" onerror="this.style.display='none'">
+    </div>
+
+    <div class="container">
+      <div class="stats">
+        <div><strong>12+</strong><span>years of R&amp;D, from academia to industry</span></div>
+        <div><strong>20</strong><span>peer-reviewed publications in IEEE, ACM &amp; Springer journals and top-ranked AI/ML conferences</span></div>
+        <div><strong>6</strong><span>papers in Q1 transactions &amp; journals spanning AI/ML, NLP, security, agriculture and more</span></div>
+        <div><strong>500+</strong><span>rural students empowered through education as Founder of U4H</span></div>
+      </div>
+
+      <div class="hobby">
+        <p class="hobby-title"><span class="hobby-icon">&#9992;</span> <strong>Travel is my favourite hobby.</strong> I love exploring new places and cultures. 13 countries &amp; regions so far, and counting:</p>
+        <div class="chips">
+          <span>Japan</span><span>China</span><span>Hong Kong</span><span>Qatar</span><span>UAE (Dubai)</span><span>UK (London)</span><span>Germany</span><span>Switzerland</span><span>Netherlands</span><span>France</span><span>Italy</span><span>Spain</span><span>Portugal</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What I do -->
+  <section id="work" class="section">
+    <div class="container">
+      <p class="kicker">01 &mdash; What I do</p>
+      <h2>Four problems I keep coming back to</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-num">A</div>
+          <h3>Agents that actually work</h3>
+          <p>I design and evaluate agentic frameworks with tool use and Retrieval-Augmented Generation (RAG). Today that work is for Johnson &amp; Johnson, and I tune agents with prompt optimization and reinforcement learning.</p>
+          <p class="card-tags">Agentic AI · RAG · LangChain · RAGFlow</p>
+        </article>
+        <article class="card">
+          <div class="card-num">B</div>
+          <h3>Keeping models from being stolen</h3>
+          <p>A trained model is valuable, and attackers can copy it just by querying it. My Probabilistic Defense Framework makes that kind of model extraction much harder.</p>
+          <p class="card-tags">Model security · Adversarial ML</p>
+        </article>
+        <article class="card">
+          <div class="card-num">C</div>
+          <h3>Making LLMs safer</h3>
+          <p>I use LLMs to catch phishing pages and URLs in real time, and I build detectors against prompt injection. I also study security flaws in LLM-generated code and data leakage in federated learning.</p>
+          <p class="card-tags">LLM security · Privacy · Phishing</p>
+        </article>
+        <article class="card">
+          <div class="card-num">D</div>
+          <h3>Small models, big reach</h3>
+          <p>Not every device has a GPU. I compress networks and design cheaper activation functions so deep learning runs on constrained hardware. I also build LLM resources for low-resource languages like Maithili.</p>
+          <p class="card-tags">TinyML · Compression · Low-resource NLP</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured research -->
+  <section id="featured" class="section alt">
+    <div class="container">
+      <p class="kicker">02 &mdash; Selected research</p>
+      <h2>Work I'm proud of</h2>
+      <div class="featured">
+        <article class="paper">
+          <p class="venue">IEEE Transactions on Consumer Electronics · 2026</p>
+          <h3>Probabilistic Defense Framework for Enhancing Model Security Against Extraction Attacks</h3>
+          <p>A defense that protects deployed models from being cloned through their own prediction API.</p>
+        </article>
+        <article class="paper">
+          <p class="venue">IEEE ISCAS · London · 2025</p>
+          <h3>Approximating Nonlinear Activation Functions Using Genetic Programming</h3>
+          <p>Genetic programming finds activation functions that keep accuracy while costing less to compute in hardware.</p>
+        </article>
+        <article class="paper">
+          <p class="venue">Springer ETTIS · 2025 <span class="badge">Best Paper Award</span></p>
+          <h3>Detecting Phishing Attacks Using LLM-Based Embeddings</h3>
+          <p>LLM embeddings turn webpages and URLs into features that a fast classifier uses to flag phishing in real time.</p>
+        </article>
+        <article class="paper">
+          <p class="venue">Cluster Computing · 2025 <span class="q">Q1</span></p>
+          <h3>YOLOv9 and Image Enhancement for Potato Disease Detection from UAV Imagery</h3>
+          <p>Drone images and an enhanced YOLOv9 detect crop disease more precisely, at a scale that suits real farms.</p>
+        </article>
+      </div>
+
+      <details class="all-pubs">
+        <summary>Show all publications</summary>
+
+        <h4>Journal articles</h4>
+        <ol class="pubs">
+          <li><strong>M. K. Gurve</strong>, S. Behera, C. S. Tyagi, P. Velpula, A. Vidyarthi, and Y. Prasad, “Probabilistic Defense Framework for Enhancing Model Security Against Extraction Attacks,” <em>IEEE Transactions on Consumer Electronics</em>, 2026. <span class="q">Q1</span></li>
+          <li><strong>M. K. Gurve</strong>, G. Kumar, A. Kumar, S. Ahlawat, and Y. Prasad, “PSO–GP: An evolutionary optimization-based activation function approximation for hardware efficient neural network,” <em>Computers and Electrical Engineering</em>, vol. 139 (Part B), 2026. <span class="q">Q1</span></li>
+          <li>C. Gupta, G. Kumar, <strong>M. K. Gurve</strong>, G. Varshney, and S. Ahlawat, “SRAM PUF-based logic locking framework for IoT authentication and IP protection,” <em>Computers and Electrical Engineering</em>, vol. 135, 111143, 2026. <span class="q">Q1</span></li>
+          <li>G. Kumar, <strong>M. K. Gurve</strong>, Nitin, Y. Prasad, and S. Ahlawat, “Secure and scalable access protocol for enhancing IEEE 1687 network security,” <em>Cybersecurity</em>, vol. 9, no. 1, 37, 2026. <span class="q">Q1</span></li>
+          <li>A. Kumar, <strong>M. K. Gurve</strong>, S. Ahlawat, Y. Prasad, and V. Singh, “ToxicBias-Reasoning: A multicultural dataset for social bias detection with human-aligned reasoning,” <em>Language Resources and Evaluation</em>, vol. 60, no. 2, 35, 2026. <span class="q">Q1</span></li>
+          <li>S. Behera, A. Kumar, <strong>M. K. Gurve</strong>, S. Ahlawat, and Y. Prasad, “You Only Prune Once: A Zero-Shot, Data-Free Pruning at Initialization via Low-Rank Residual Saliency,” <em>Transactions on Machine Learning Research</em>, 2026. <span class="q">Q2</span></li>
+          <li>P. Kumar, G. Kumar, <strong>M. K. Gurve</strong>, Y. Prasad, and S. Ahlawat, “On enhancing the security of streaming scan network through dual-functional TDR,” <em>ACM Transactions on Design Automation of Electronic Systems</em>, vol. 31, no. 2, pp. 1–20, 2026. <span class="q">Q2</span></li>
+          <li><strong>M. K. Gurve</strong>, S. Behera, Y. Prasad, and Nitin, “Integrating YOLOv9 and image enhancement on UAV-derived data enhances precision in potato disease detection,” <em>Cluster Computing</em>, vol. 28, no. 8, 517, 2025. <span class="q">Q1</span></li>
+        </ol>
+
+        <h4>Conference papers</h4>
+        <ol class="pubs">
+          <li><strong>M. K. Gurve</strong>, D. Gupta, and Y. Prasad, “Auditor-Free Byzantine-Resilient Federated Learning via Functional Inner Products,” <em>ACM/IEEE International Conference on Embedded Artificial Intelligence</em>, 2026.</li>
+          <li><strong>M. K. Gurve</strong>, G. Kumar, A. Kumar, S. Ahlawat, and Y. Prasad, “Approximating nonlinear activation function using genetic programming,” <em>IEEE ISCAS 2025</em>, London, UK, pp. 1–5, 2025.</li>
+          <li><strong>M. K. Gurve</strong>, Y. Prasad, Nitin, and M. Cahay, “A machine learning approach to detecting phishing attacks using LLM-based embeddings,” <em>Springer ETTIS 2025</em>, India, 2025. <span class="badge">Best Paper Award</span></li>
+          <li><strong>M. K. Gurve</strong>, G. Kumar, S. Behera, Y. Prasad, and S. Ahlawat, “On exploring non-negative matrix factorization for deep neural network compression,” <em>IEEE ISOCC 2024</em>, Japan, pp. 115–116, 2024.</li>
+          <li>S. Ahmed, <strong>M. K. Gurve</strong>, and S. Shukla, “Easy Mandi: An agricultural production trading platform for Indian markets,” <em>IEEE ICSC 2022</em>, India, 2022.</li>
+          <li>S. Pathak, A. Agarwal, A. Ankita, and <strong>M. K. Gurve</strong>, “Restricted randomness DBSCAN: A faster DBSCAN algorithm,” <em>ACM IC3 2021</em>, India, 2021.</li>
+          <li>M. Duggal, N. Saxena, and <strong>M. K. Gurve</strong>, “SRS Automator: An attempt to simplify the software development lifecycle,” <em>IEEE ICSC 2020</em>, India, 2020.</li>
+          <li>A. Chauhan, A. Verma, and <strong>M. K. Gurve</strong>, “Tag-based answer recommendation system,” <em>IEEE ICSC 2019</em>, India, 2019.</li>
+          <li>M. Goel, N. Sharma, and <strong>M. K. Gurve</strong>, “Analysis of global terrorism dataset using open-source data mining tools,” <em>IEEE GUCON 2019</em>, India, 2019.</li>
+          <li>N. Goel and <strong>M. K. Gurve</strong>, “Greenhouse monitoring system using the Internet of Things and cloud-based technology,” <em>Springer ICIoTCT 2018</em>, India, 2018.</li>
+          <li>S. K. Chauhan, A. Goel, P. Goel, A. Chauhan, and <strong>M. K. Gurve</strong>, “Research on product review analysis and spam review detection,” <em>IEEE SPIN 2017</em>, India, 2017.</li>
+          <li><strong>M. K. Gurve</strong> and J. Sarup, “Satellite cloud image processing and information retrieval system,” <em>IEEE WICT 2012</em>, India, pp. 292–296, 2012.</li>
+        </ol>
+
+        <h4>Preprints &amp; under review</h4>
+        <ol class="pubs">
+          <li><strong>M. K. Gurve</strong>, R. Ranjan, and Y. Prasad, “SentiMaithili: A Benchmark Dataset for Sentiment and Reason Generation for the Low-Resource Maithili Language,” <em>arXiv:2510.22160</em>, 2025.</li>
+          <li><strong>M. K. Gurve</strong>, S. Behera, S. Ahlawat, and Y. Prasad, “MisGUIDE: Defense against data-free deep learning model extraction,” <em>arXiv:2403.18580</em>, 2024.</li>
+          <li><strong>M. K. Gurve</strong>, H. Soni, S. Ahlawat, and Y. Prasad, “NA-TSF: Noise-Aware Time Series Forecasting with STL Decomposition for Industrial Applications,” <em>IEEE Embedded Systems Letters</em> (under review).</li>
+        </ol>
+      </details>
+    </div>
+  </section>
+
+  <!-- Journey -->
+  <section id="journey" class="section">
+    <div class="container">
+      <p class="kicker">03 &mdash; Journey</p>
+      <h2>From classroom to lab to industry</h2>
+      <ol class="timeline">
+        <li>
+          <span class="when">2025 — now</span>
+          <h3>Senior Data Scientist, Info Origin Inc.</h3>
+          <p>Building a high-performance agentic framework with RAG for Johnson &amp; Johnson, and making those agents more reliable and context-aware.</p>
+        </li>
+        <li>
+          <span class="when">2024 — 2025</span>
+          <h3>Research Intern, University of Cincinnati, USA</h3>
+          <p>Two stints. First, an enhanced YOLOv9 for spotting crop disease from drones. Then LLM embeddings for real-time phishing detection, and a guard against prompt injection.</p>
+        </li>
+        <li>
+          <span class="when">2024 — 2025</span>
+          <h3>Project Supervisor, Industry &amp; IIT Jammu</h3>
+          <p>Guided projects on fine-tuning LLMs for Maithili, private-data leakage in federated learning, and security flaws in LLM-written code.</p>
+        </li>
+        <li>
+          <span class="when">2022 — 2025</span>
+          <h3>Research Fellow &amp; Ph.D., IIT Jammu</h3>
+          <p>Thesis: <em>Secure and Lightweight Deep Learning Models for Cyber-Physical Systems</em>. Built defenses against model cloning, a genetic-programming activation function, and NMF-based model compression.</p>
+        </li>
+        <li>
+          <span class="when">2013 — 2022</span>
+          <h3>Assistant Professor, JIIT Noida</h3>
+          <p>Nine years of teaching programming, AI, and machine learning, and guiding student projects. I was also faculty advisor of the Google Developers Group and on the organizing team of the IC3 conference.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section alt">
+    <div class="container">
+      <p class="kicker">04 &mdash; Education</p>
+      <h2>Where I learned</h2>
+      <div class="edu-grid">
+        <article class="edu-card">
+          <p class="venue">2022 – present</p>
+          <h3>Ph.D., Computer Science &amp; Engineering</h3>
+          <p class="org">IIT Jammu</p>
+          <p class="edu-note"><em>Towards Efficient, Secure, and Deployable Machine Learning Systems</em></p>
+        </article>
+        <article class="edu-card">
+          <p class="venue">2011 – 2013</p>
+          <h3>M.Tech., Geographical Information System</h3>
+          <p class="org">NIT Bhopal</p>
+          <p class="edu-note">My work on satellite cloud image retrieval became my first IEEE paper.</p>
+        </article>
+        <article class="edu-card">
+          <p class="venue">2006 – 2010</p>
+          <h3>B.E., Computer Science &amp; Engineering</h3>
+          <p class="org">RGPV Bhopal</p>
+        </article>
+        <article class="edu-card">
+          <p class="venue">Schooling</p>
+          <h3>Jawahar Navodaya Vidyalaya</h3>
+          <p class="edu-note">Where it all started.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beyond work -->
+  <section id="beyond" class="section">
+    <div class="container">
+      <p class="kicker">05 &mdash; Beyond work</p>
+      <h2>Talks, recognition, and giving back</h2>
+
+      <div class="u4h">
+        <div>
+          <h3>U4H Foundation <span class="muted">· Founder, since 2015</span></h3>
+          <p>U4H is a non-profit I started to support young people from small villages in India when they need it most. With a team of about 35 volunteers, we have supported the education of more than 500 rural students. We work alongside teachers, doctors, and the students themselves.</p>
+        </div>
+      </div>
+
+      <div class="three-col">
+        <div>
+          <h3>Speaking</h3>
+          <ul class="plain">
+            <li><span class="item-title">Approximating activation functions with genetic programming</span><span class="meta">IEEE ISCAS, London · 2025</span></li>
+            <li><span class="item-title">CPS security in the era of AI</span><span class="meta">Invited, BTU Bikaner · 2025</span></li>
+            <li><span class="item-title">Detecting phishing with LLM embeddings</span><span class="meta">Springer ETTIS, Noida · 2025</span></li>
+            <li><span class="item-title">NMF for DNN compression</span><span class="meta">IEEE ISOCC, Sapporo · 2024</span></li>
+            <li><span class="item-title">Adversarial machine learning</span><span class="meta">Invited, JIIT Noida · 2024</span></li>
+            <li><span class="item-title">Machine learning for cybersecurity</span><span class="meta">Invited, SMVDU Katra · 2023</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Recognition</h3>
+          <ul class="plain">
+            <li><span class="item-title">DAC Young Fellow</span><span class="meta">San Francisco · 2025</span></li>
+            <li><span class="item-title">Best Paper Award</span><span class="meta">ETTIS · 2025</span></li>
+            <li><span class="item-title">Winner, UNESCO India–Africa Hackathon</span><span class="meta">Awarded by the Hon'ble President of India · 2022</span></li>
+            <li><span class="item-title">Winner, Smart India Hackathon</span><span class="meta">2022</span></li>
+            <li><span class="item-title">Travel grants</span><span class="meta">ACM (ESWEEK, Germany) 2023 · Institute (ISOCC, Japan) 2024</span></li>
+            <li><span class="item-title">Mentor of Change, NITI Aayog</span><span class="meta">Govt. of India · 2020</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Community</h3>
+          <ul class="plain">
+            <li><span class="item-title">IEEE Member</span></li>
+            <li><span class="item-title">Reviewer</span><span class="meta">ISCAS 2025 · ICI 2022, 2023 · CVIP 2022</span></li>
+            <li><span class="item-title">IC3 Conference</span><span class="meta">Organizing committee 2013–21 · Publication committee 2017–21</span></li>
+            <li><span class="item-title">Faculty Advisor, GDG JIIT</span><span class="meta">2013–2022</span></li>
+            <li><span class="item-title">Wipro Certified Faculty</span><span class="meta">2018</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="toolbox">
+        <h3>Toolbox</h3>
+        <div class="chips">
+          <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>scikit-learn</span><span>Pandas</span><span>TinyML</span><span>LangChain</span><span>RAGFlow</span><span>HuggingFace</span><span>OpenAI APIs</span><span>AWS S3</span><span>SQL</span><span>MongoDB</span><span>C/C++</span><span>Java</span><span>MATLAB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt contact-section">
+    <div class="container narrow">
+      <p class="kicker">06 &mdash; Contact</p>
+      <h2>Let's talk</h2>
+      <p class="lead">I'm happy to hear about research collaborations, consulting on agentic AI or LLM security, or invitations to speak.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:manu.manit@gmail.com">manu.manit@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/mahendragurve/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="mailto:mahendra.gurve@ieee.org">mahendra.gurve@ieee.org</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Mahendra Kumar Gurve</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', false);
+  }));
+</script>
+</body>
+</html>
